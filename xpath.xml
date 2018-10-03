@@ -1,0 +1,9 @@
+<application>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="SEARCH_SCOPE">
+      <SearchScope scope-name="All Places" type="MODULE">
+        <moduleName>TestResults.xml</moduleName>
+      </SearchScope>
+    </option>
+  </component>
+</application>
