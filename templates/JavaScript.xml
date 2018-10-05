@@ -1,0 +1,25 @@
+<templateSet group="JavaScript">
+  <template name="clog" value="console.log(`$END$`);" description="Inserts define() expression" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="ifel" value="if($STATEMENT$){&#10;  $IFTRUE$&#10;} else {&#10;  $IFFALSE$&#10;}" description="inserts if .. else statement" toReformat="false" toShortenFQNames="true">
+    <variable name="STATEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IFTRUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IFFALSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function $FUNCTION_NAME$($FUNCTION_PARAMS$) {&#10;  $END$&#10;};" description="function expression" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

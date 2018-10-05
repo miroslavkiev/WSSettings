@@ -7,11 +7,19 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/miroslavkiev/storybooks.git" />
+          <option name="url" value="https://github.com/miroslavkiev/learnEnglishWords.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/miroslavkiev/VidJot.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/miroslavkiev/contactmanager.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\mk\WebstormProjects" />
+    <option name="cloneParentDir" value="C:\Users\krmy\WebstormProjects" />
   </component>
 </application>
